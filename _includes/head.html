@@ -23,6 +23,12 @@
     {% include _sass/main.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
+    
+    .main-content {
+        background-image: url({{ "/assets/img/header-bg.png" | prepend: site.github.url | replace: 'http://', 'https://' }});
+        background-size: cover;
+    }
+
   </style>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>

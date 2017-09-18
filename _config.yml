@@ -34,3 +34,4 @@ exclude:
   - CNAME
   - node_modules
   - assets/sass
+  - assets/css
