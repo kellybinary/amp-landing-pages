@@ -17,151 +17,18 @@
       ]
     }
   </script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <style amp-custom>
     {% capture include_to_scssify %}
     {% include _sass/main.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
-
     .main-content {
+        background-color: #2A3052;
         background-image: url({{ "/assets/img/header-bg.png" | prepend: site.github.url | replace: 'http://', 'https://' }});
         background-size: cover;
         padding-bottom:30px;
     }
-
-    .ic-bank-transfer:before {
-        content: url({{ "/assets/img/payment_methods/ic-bank-transfer.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-bitcoin-cash:before {
-        content: url({{ "/assets/img/payment_methods/ic-bitcoin-cash.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-bitcoin:before {
-        content: url({{ "/assets/img/payment_methods/ic-bitcoin.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-cashu:before {
-        content: url({{ "/assets//img/payment_methods/ic-cashu.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-clickandbuy:before {
-        content: url({{ "/assets//img/payment_methods/ic-clickandbuy.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-ethereum-classic:before {
-        content: url({{ "/assets//img/payment_methods/ic-ethereum-classic.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-ethereum:before {
-        content: url({{ "/assets//img/payment_methods/ic-ethereum.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-fasapay:before {
-        content: url({{ "/assets//img/payment_methods/ic-fasapay.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-icbc:before {
-        content: url({{ "/assets//img/payment_methods/ic-icbc.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-instadebit:before {
-        content: url({{ "/assets//img/payment_methods/ic-instadebit.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-internet-bank-transfer:before {
-        content: url({{ "/assets//img/payment_methods/ic-internet-bank-transfer.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-internet-banking:before {
-        content: url({{ "/assets//img/payment_methods/ic-internet-banking.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-litecoin:before {
-        content: url({{ "/assets//img/payment_methods/ic-litecoin.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-mastercard-securecode:before {
-        content: url({{ "/assets//img/payment_methods/ic-mastercard-securecode.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-mastercard:before {
-        content: url({{ "/assets//img/payment_methods/ic-mastercard.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-moneta:before {
-        content: url({{ "/assets//img/payment_methods/ic-moneta.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-neteller:before {
-        content: url({{ "/assets//img/payment_methods/ic-neteller.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-ok-pay:before {
-        content: url({{ "/assets//img/payment_methods/ic-ok-pay.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-paysafe-card:before {
-        content: url({{ "/assets//img/payment_methods/ic-paysafe-card.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-perfect-money:before {
-        content: url({{ "/assets//img/payment_methods/ic-perfect-money.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .fx-one-zero:before {
-        content: url({{ "/assets//img/payment_methods/ic-bank-transfer.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-qiwi:before {
-        content: url({{ "/assets//img/payment_methods/ic-qiwi.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-skrill:before {
-        content: url({{ "/assets//img/payment_methods/ic-skrill.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-ukash:before {
-        content: url({{ "/assets//img/payment_methods/ic-ukash.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-union-pay:before {
-        content: url({{ "/assets//img/payment_methods/ic-union-pay.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-verified-visa:before {
-        content: url({{ "/assets//img/payment_methods/ic-verified-visa.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-visa:before {
-        content: url({{ "/assets//img/payment_methods/ic-visa.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-webmoney:before {
-        content: url({{ "/assets//img/payment_methods/ic-webmoney.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-western-union:before {
-        content: url({{ "/assets//img/payment_methods/ic-western-union.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-yandex:before {
-        content: url({{ "/assets//img/payment_methods/ic-yandex.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-licensed-regulated:before {
-        content: url({{ "/assets//img/dark/ic-licensed-regulated.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-trade-real-crypto:before {
-        content: url({{ "/assets//img/dark/ic-trade-real-crypto.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
-    .ic-unique-trade-types:before {
-        content: url({{ "/assets//img/dark/ic-unique-trade-types.svg" | prepend: site.github.url | replace: 'http://', 'https://' }});
-    }
-
   </style>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>

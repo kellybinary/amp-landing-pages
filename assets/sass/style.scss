@@ -1,28 +1,28 @@
 body {
-  font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 
 .feature-box {
-  text-align: center;
-  margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 header {
-  width: 100%;
-  background-color: transparent;
+    width: 100%;
+    background-color: transparent;
 }
 
 .footer {
-  background-color: #2A3052;
+    background-color: #2A3052;
 }
 
 .footer-section {
-  padding:15px;
+    padding:15px;
 }
 
 .logo {
-  margin: auto;
-  display: block;
+    margin: auto;
+    display: block;
 }
 
 h1 {
@@ -62,6 +62,7 @@ p {
 
 .iframe {
     width: 100%;
+    overflow: hidden;
 }
 
 .hero-text {
@@ -70,6 +71,8 @@ p {
 
 hr {
     width: 120px;
+    border-left: 0;
+    border-right: 0;
     border-bottom: 0;
     border-top: 5px solid rgb(233,128,36);
 }
