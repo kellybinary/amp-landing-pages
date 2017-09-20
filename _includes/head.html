@@ -3,6 +3,7 @@
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
@@ -43,12 +44,4 @@
         color: red;
     }
   </style>
-  <amp-font layout="nodisplay"
-            font-family="Roboto"
-            timeout="2000"
-            on-error-remove-class="robotoamp-loading"
-            on-error-add-class="robotoamp-missing"
-            on-load-remove-class="robotoamp-loading"
-            on-load-add-class="robotoamp-loaded">
-    </amp-font>
 </head>
