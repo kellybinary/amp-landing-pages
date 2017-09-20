@@ -1,15 +1,24 @@
 <!doctype html>
 <html amp lang="{{ site.lang | default: page.lang | default: 'en' }}">
-  {% include head.html %}
+    {%- include head.html -%}
   <body>
-    <div class = "main-content">
-        {% include header.html %}
-        <main class="main" aria-label="Content">
-          {{ content }}
-        </main>
-        {% include hero_section.html %}
-    </div>
-        {% include payment_methods.html %}
+    <amp-font layout="nodisplay"
+              font-family="Roboto"
+              timeout="2000"
+              on-error-remove-class="robotoamp-loading"
+              on-error-add-class="robotoamp-missing"
+              on-load-remove-class="robotoamp-loading"
+              on-load-add-class="robotoamp-loaded">
+      </amp-font>
+      <div class = "main-content">
+          {%- include header.html -%}
+          <main class="main" aria-label="Content">
+              {{ content }}
+          </main>
+          {%- include hero_section.html -%}
+      </div>
+          {%- include payment_methods.html -%}
   </body>
-    {% include footer.html %}
+      {%- include footer.html -%}
+      {%- include amp_analytics.html -%}
 </html>
