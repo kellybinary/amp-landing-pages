@@ -5,11 +5,13 @@ language: id
 ---
 <div class = "container">
     <amp-iframe class="iframe"
-                height="100"
-                width="400"
-                layout="responsive"
+                height="136"
+                width="auto"
+                layout="fixed-height"
                 sandbox="allow-scripts allow-same-origin allow-forms"
                 src="https://www.binary.com/en/landing/signup-frame.html">
-    <amp-img placeholder layout="fixed" height="67" width="104" src={{ "/assets/img/spinner.gif" | prepend: site.github.url | replace: 'http://', 'https://' }}></amp-img>
+                <p class = "center-text">
+                    <amp-img placeholder layout="fixed" height="67" width="104" src={{ "/assets/img/spinner.gif" | prepend: site.github.url | replace: 'http://', 'https://' }}></amp-img>
+                </p>
     </amp-iframe>
 </div>
