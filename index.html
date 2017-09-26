@@ -8,8 +8,6 @@ layout: default
                 layout="fixed-height"
                 sandbox="allow-scripts allow-same-origin allow-forms"
                 src="https://www.binary.com/en/landing/signup-frame.html">
-                <p class = "center-text">
-                    <amp-img placeholder layout="fixed" height="67" width="104" src={{ "/assets/img/spinner.gif" | prepend: site.github.url | replace: 'http://', 'https://' }}></amp-img>
-                </p>
-    </amp-iframe>
+                <amp-img placeholder layout="fixed" height="67" width="104" class="spinner" src={{ "/assets/img/spinner.gif" | prepend: site.github.url | replace: 'http://', 'https://' }}></amp-img>
+  </amp-iframe>
 </div>
