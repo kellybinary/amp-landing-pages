@@ -1,0 +1,26 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 479px) {
+    .content-top {
+        padding: 0;
+    }
+    .content-body {
+        padding: 0px 0px 30px 0px;
+    }
+    ul.bullet {
+        line-height: 1.4em;
+        padding: 0px 15px;
+        margin: unset;
+    }
+
+
+}

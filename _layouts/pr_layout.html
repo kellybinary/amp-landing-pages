@@ -1,0 +1,25 @@
+<!doctype html>
+<html amp lang="{{ site.lang | default: page.lang | default: 'en' }}">
+    {%- include pr_head.html -%}
+    <body>
+        <amp-font layout="nodisplay"
+                  font-family="Roboto"
+                  timeout="2000"
+                  on-error-remove-class="robotoamp-loading"
+                  on-error-add-class="robotoamp-missing"
+                  on-load-remove-class="robotoamp-loading"
+                  on-load-add-class="robotoamp-loaded">
+          </amp-font>
+          <header>
+              <a target="_blank" href="https://www.binary.com"><amp-img class="logo" src= {{ "/assets/img/binary-logo.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="Welcome" height="100" width="250"></amp-img></a>
+          </header>
+          <div class = "main-content">
+              {%- include pr_header.html -%}
+              <main class="main" aria-label="Content">
+                  {{ content }}
+              </main>
+          </div>
+    </body>
+    {%- include pr_footer.html -%}
+    {%- include pr_amp_analytics.html -%}
+</html>

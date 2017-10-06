@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+}
+
+.feature-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+header {
+    width: 100%;
+    background-color: #2A3052;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+.bg-grey {
+    background-color: #F2F2F2;
+}
+
+.pl-c-img {
+    margin: auto;
+}
+
+.content-body {
+    padding-bottom: 30px;
+}
+
+.footer {
+    .container {
+        min-height: 60px;
+    }
+    background-color: #2A3052;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #E98024;
+}
+
+h1.dark {
+    color: #2A3052;
+}
+
+h2 {
+    font-size: 28px;
+    color: #E98024;
+    font-weight: 300;
+}
+
+h3 {
+    color: #2A3052;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+p {
+    margin: 1em 0;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+a, a:visited {
+    color: #2A3052;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ol li, ul li {
+    line-height: 1.4em;
+    margin: .5em 0 0;
+}
+
+ul.bullet {
+    margin: 1.25em 0 1.25em 1.25em;
+    padding: 0;
+}
+
+ul.bullet>li {
+    list-style-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='18px' height='18px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath fill='%23e98024' d='M12,17.5A5.5,5.5,0,1,1,17.5,12,5.507,5.507,0,0,1,12,17.5Zm0-9A3.5,3.5,0,1,0,15.5,12,3.5,3.5,0,0,0,12,8.5Z'/%3E%3C/svg%3E");
+}
+
+.padding-top-5 {
+    padding-top: 5px;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.iframe {
+    width: 100%;
+    overflow: hidden;
+}
+
+.spinner {
+    margin: 0 auto;
+}
