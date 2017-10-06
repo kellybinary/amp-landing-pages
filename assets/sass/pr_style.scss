@@ -28,11 +28,10 @@ header {
 }
 
 .footer {
+    .container {
+        min-height: 60px;
+    }
     background-color: #2A3052;
-}
-
-.footer-section {
-    padding:15px;
 }
 
 .logo {

@@ -11,7 +11,7 @@
                   on-load-add-class="robotoamp-loaded">
           </amp-font>
           <header>
-              <amp-img class="logo" src= {{ "/assets/img/binary-logo.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="Welcome" height="100" width="250"></amp-img>
+              <a target="_blank" href="https://www.binary.com"><amp-img class="logo" src= {{ "/assets/img/binary-logo.svg" | prepend: site.github.url | replace: 'http://', 'https://' }} alt="Welcome" height="100" width="250"></amp-img></a>
           </header>
           <div class = "main-content">
               {%- include pr_header.html -%}
@@ -20,6 +20,6 @@
               </main>
           </div>
     </body>
-    {%- include footer.html -%}
+    {%- include pr_footer.html -%}
     {%- include pr_amp_analytics.html -%}
 </html>
