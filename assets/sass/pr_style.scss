@@ -112,3 +112,39 @@ ul.bullet>li {
 .spinner {
     margin: 0 auto;
 }
+
+.af-element {
+    text-align: center;
+
+    input[type='text'] {
+        width: 280px;
+        font-size: 18px;
+        padding: 10px;
+        margin: 6px 0;
+        border-radius: 3px;
+        border: 1px solid #F2F2F2;
+        color: #000;
+    }
+
+    input[type='submit'] {
+        font-size: 18px;
+        border-radius: 3px;
+        width: 100px;
+        padding: 10px;
+        margin: 5px 0;
+        background: #2E8836;
+        color: #FFF;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+
+        &:hover {
+            background: #14602B;
+        }
+    }
+
+    input[type='text']:focus, input[type='submit']:focus {
+        outline: none !important;
+    }
+}
