@@ -103,40 +103,12 @@
     </div>
 </div>
 <div class="container">
-    <!-- AWeber Web Form Generator 3.0.1 -->
-    <form id="aweber" class="af-form-wrapper" accept-charset="UTF-8" action-xhr="https://www.aweber.com/scripts/addlead.pl">
-        <div style="display: none;">
-            <input type="hidden" name="meta_web_form_id" value="382779290" />
-            <input type="hidden" name="meta_split_id" value="" />
-            <input type="hidden" name="listname" value="awlist4830742" />
-            <input type="hidden" name="redirect" value="" id="redirect_43fa449e42bf22fe81202b8859b5ba79" />
-            <input type="hidden" name="meta_adtracking" value="get_paid_for_PR" />
-            <input type="hidden" name="meta_message" value="1001" />
-            <input type="hidden" name="meta_required" value="email" />
-            <input type="hidden" name="meta_tooltip" value="email||Enter your email" />
-        </div>
-        <div id="af-form-382779290" class="af-form">
-            <div id="af-body-382779290" class="af-body af-standards">
-                <div class="af-element">
-                    <input class="text" id="awf_field-93525847" type="text" name="email" value="Enter your email" tabindex="500" onfocus=" if (this.value == 'Enter your email') { this.value = ''; }" onblur="if (this.value == '') { this.value='Enter your email';} " />
-                    <input name="submit" class="submit" type="submit" value="Submit" tabindex="501" />
-                </div>
-            </div>
-        </div>
-        <div submit-success>
-            <template type="amp-mustache">
-                Success!
-            </template>
-        </div>
-        <div submit-error>
-            <template type="amp-mustache">
-                Error!
-            </template>
-        </div>
-        <div style="display: none;"><img src="https://forms.aweber.com/form/displays.htm?id=zBxM7OycTJwM" alt="" /></div>
-    </form>
-    <script type="text/javascript">
-        document.getElementById('redirect_43fa449e42bf22fe81202b8859b5ba79').value = document.location + '#done';
-    </script>
-    <!-- /AWeber Web Form Generator 3.0.1 -->
+    <amp-iframe class="iframe"
+                height="136"
+                width="auto"
+                layout="fixed-height"
+                sandbox="allow-scripts allow-same-origin allow-forms"
+                src="https://localhost.localdomain/binary-static/en/landing/pr-signup-frame.html">
+                <amp-img placeholder layout="fixed" height="67" width="104" class="spinner" src={{ "/assets/img/spinner.gif" | prepend: site.github.url | replace: 'http://', 'https://' }}></amp-img>
+    </amp-iframe>
 </div>
